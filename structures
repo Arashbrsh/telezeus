@@ -978,7 +978,7 @@ void tglf_fetch_message_media_new (struct tgl_state *TLS, struct tgl_message_med
     M->user_id = DS_LVAL (DS_MM->user_id);
     break;
   case CODE_message_media_unsupported:
-  //case CODE_message_media_unsupported_l22:
+  case CODE_message_media_unsupported_l22:
     M->type = tgl_message_media_unsupported;
     break;
   case CODE_message_media_web_page:
